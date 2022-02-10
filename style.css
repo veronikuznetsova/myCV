@@ -78,6 +78,7 @@ h3 {
     display: list-item;
     text-align: match-parent;
     position: relative;
+    transition: .3s;
 }
 
 .nav-item:hover{
@@ -86,7 +87,7 @@ h3 {
   transform: scale(1.1)
 }
 
-.nav-item:hover::after, .github:hover::after, .rss:hover::after, .section-title:hover::after, .section-subtitle:hover::after{
+.nav-item:hover::after, .github:hover::after, .section-title:hover::after, .section-subtitle:hover::after{
     position: absolute;
     content: "";
     top: 15px;
@@ -130,6 +131,7 @@ h3 {
     font-weight: 300;
     line-height: 50px;
     color: #fff;
+    transition: .3s;
 }
 
 .footer{
@@ -149,6 +151,7 @@ h3 {
     color: #fff;
     text-decoration: none;
     line-height: 45px;
+    transition: .3s;
 }
 
 .github:hover{
@@ -215,6 +218,7 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #BC8F8F;
+    transition: .3s;
 }
 
 .section-title:hover, .section-subtitle:hover{
@@ -233,6 +237,7 @@ h3 {
     letter-spacing: 10px;
     line-height: 50px;
     word-spacing: 3px;
+    transition: .3s;
 }
 
 .main-title::after {
@@ -252,6 +257,7 @@ h3 {
     line-height: 50px;
     font-weight: 300;
     letter-spacing: 2px;
+    transition: .3s;
 }
 
 .section-list {
